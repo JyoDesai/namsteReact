@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+
+.header{
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+}
+
+.nav-items > ul {
+
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.search{
+    padding: 10px 0;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-container a{
+    text-decoration: none;
+    color: #000;
+}
+
+.res-card{
+   
+    height: auto;
+    width: 220px;
+    background-color: #ccc;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.res-card:hover{
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.rest-card-img{
+    width: 100%;
+}
+
+.filter-btn{
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.shimmer-card{
+
+    height: 300px;
+    width: 220px;
+    background-color: #ccc;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.login-btn{
+    padding: 8px 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ccc;
+    height: 50px;
+    cursor: pointer;
+}
+
+.user-card{
+    border: 1px solid #000;
+    padding:20px;
+    margin: 10px;
+}
